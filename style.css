@@ -1,0 +1,54 @@
+@import url(https://yaabil.com/wp-content/uploads/2024/06/8.jpg);
+.menuhorizontal{margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: 'open sans'}
+
+body{
+    background-image: url(https://yaabil.com/wp-content/uploads/2024/06/8.jpg);
+    background-size: cover;
+
+}
+
+nav {
+max-width: 900px;
+margin:auto;
+background-color: #F4F1E9;
+font-size: 20px;
+margin-top: 50px;
+}
+.menuhorizontal { 
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menuhorizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+}
+.menuhorizontal > li:hover
+{ background-color:#CCBCB3; }
+
+.menuvertical{
+    
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #B0A39E;
+
+    }
+    .menuhorizontal li:hover .menuvertical {
+        display: block;
+    }
+    .menuvertical li:hover{ 
+        background-color: #E2D0C7;
+    }
+.menuvertical li a {
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
